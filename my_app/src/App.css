@@ -1,0 +1,201 @@
+
+/* mise en page LoginPage  */
+
+.containerConnect{
+    margin :0 auto;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    height: 600px;
+    border : 1px solid black;
+    background: url(/public/caddie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.colLeft{
+    float: left;
+    width: 60%;
+}
+
+.colRight{
+    float: right;
+}
+.LoginTitle{
+    -webkit-text-size-adjust: 100%;
+    margin: 50px 60px;
+    color: var(--bs-body-color);
+    text-shadow:  #FAEBD7 2px 2px,  #FAEBD7 -2px 2px,  #FAEBD7 -2px -2px,  #FAEBD7 2px -2px;
+    
+
+}
+#formConnect {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    background-size: cover;    
+}
+
+button{
+    margin: 10px 220px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: var(--bs-body-color);
+    background-color : #FAEBD7;
+    font-weight: bold;
+    vertical-align: middle;  
+}
+
+
+/* bandeau dans la page LoginPage  */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #755c44;
+    position: sticky;
+    top: 0;
+}
+
+
+nav h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--bs-body-color);
+    text-shadow:  #FAEBD7 2px 2px,  #FAEBD7 -2px 2px,  #FAEBD7 -2px -2px,  #FAEBD7 2px -2px;
+}
+
+nav .onglets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets a {
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--bs-body-color);
+    text-shadow:  #FAEBD7 2px 2px,  #FAEBD7 -2px 2px,  #FAEBD7 -2px -2px,  #FAEBD7 2px -2px;
+    text-decoration: none;
+}
+
+a {
+    font-weight: bold; 
+    font-size: 30px; 
+    color: var(--bs-body-color);
+    text-shadow:  #FAEBD7 2px 2px,  #FAEBD7 -2px 2px,  #FAEBD7 -2px -2px,  #FAEBD7 2px -2px;
+    text-decoration: none;
+    }    
+
+
+
+/* mise en page my shopping cart  */
+
+#cartTitle {
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--bs-body-color);
+    text-shadow: #E9C9B1 1px 3px, #E9C9B1 -1px 30px, #E9C9B1 -1px -2px, #E9C9B1 1px -2px;
+}
+
+
+#Cartfooter{
+    background-color: #755c44; 
+    padding: 60px;  
+}
+.card{
+    border-radius: 30px;
+    background-color:#E9C9B1 ;
+    width: 200px;
+    height :300px;
+}
+
+.card-title{
+    color: var(--bs-body-color); 
+    font-size: small;
+}
+
+#mainContainer{
+    background: url(/public/caddie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+
+/* mise en page des formulaires add-delete  */
+
+h3 {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 40px; 
+    color: var(--bs-body-color);
+    text-shadow:  #FAEBD7 2px 2px,  #FAEBD7 -2px 2px,  #FAEBD7 -2px -2px,  #FAEBD7 2px -2px;
+}
+
+
+
+input {
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid;
+    font: 1em sans-serif"Segoe print", Arial, Helvetica, sans-serif;
+    color: var(--bs-body-color);
+    float: right;
+    border-radius: 10px; 
+    border-color: var(--bs-body-color); 
+    vertical-align: middle;
+    text-align: center;
+  }
+
+#submit{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: black;
+    background-color : #FAEBD7;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#typeOfProduct {
+    float: right;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#formAction {
+    margin: 0 auto;
+    width: 700px;
+    padding: 1em;
+    border: 5px solid black;
+    border-color: black;
+    border-radius: 1em;
+    background: url(/public/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+label{
+    font-size:  30px;
+    color: var(--bs-body-color);
+    text-shadow:  #FAEBD7 2px 2px,  #FAEBD7 -2px 2px,  #FAEBD7 -2px -2px,  #FAEBD7 2px -2px;
+    }
+
+#home {
+    text-align: center;
+    }
+
+
+
+
